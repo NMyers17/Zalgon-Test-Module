@@ -1,0 +1,39 @@
+/* Traits */
+.dnd5e .traits-list .tag {
+  background-color: burlywood;
+}
+
+/* HP colors if below 33% */
+.dnd5e.sheet.actor input[name="system.attributes.hp.value"].near-death {
+  color: red;
+}
+
+/* HP colors if below 66% */
+.dnd5e.sheet.actor input[name="system.attributes.hp.value"].bloodied {
+  color: peru;
+}
+
+/* Fix overflow in sheet header (race, background, alignment, proficiency) */
+.dnd5e.sheet.actor .sheet-header .summary {
+  white-space: nowrap;
+  /* TODO: not needed after 2.2.x */
+}
+
+.dnd5e.sheet.actor .sheet-header .summary li {
+  padding-right: 0.5em;
+}
+
+/* Rest buttons and 'new day' button */
+.dnd5e.sheet.actor.character .attributes .attribute.hit-dice .attribute-footer {
+  display: flex;
+  line-height: 15px;
+  gap: 2px;
+  margin: 0 2px;
+}
+
+.dnd5e.sheet.actor.character .attributes .attribute.hit-dice a.rest {
+  flex: 1;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+}

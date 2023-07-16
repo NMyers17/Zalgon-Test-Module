@@ -1,0 +1,25 @@
+{
+  "id": "zalgon-custom-stuff",
+  "title": "Zalgon's Custom Stuff",
+  "version": "1.1.0",
+  "authors": [
+    {
+      "name": "Zalgon",
+      "url": "",
+      "discord": "Zalgon#6511"
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "maximum": "11",
+    "verified": "11"
+  },
+  "esmodules": ["setup.mjs"],
+  "styles": [
+    "./styles/styles.css",
+    "./styles/sheetEdits.css"
+  ],
+  "url": "https://github.com/NMyers17/Zalgons-Custom-Stuff",
+  "manifest": "https://raw.githubusercontent.com/NMyers17/zalgon-custom-stuff/main/module.json",
+  "download": "https://github.com/NMyers17/zalgon-custom-stuff/raw/main/module.zip"
+}
